@@ -4,7 +4,7 @@
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 import pydicom
 
-def list_tag(ds, tagname=""):
+def list_tags(ds, tagname=""):
     return ds.dir(tagname)
 
 def modify_tag(ds, tagname, tagvalue, outputfilename):
